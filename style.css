@@ -159,6 +159,7 @@ body {
   background-color: var(--neutral-bg-headings-btns);
   border: 2px solid var(--neutral-bg-headings-btns);
   border-radius: 1.5rem;
+  text-transform: capitalize;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border 0.2s ease-in-out;
 }
