@@ -41,6 +41,7 @@ body {
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   font-family: var(--font-body);
+  background-color: var(--neutral-bg-headings-btns);
 }
 
 .header {
