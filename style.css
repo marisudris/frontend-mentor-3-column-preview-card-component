@@ -156,7 +156,15 @@ body {
   min-height: 3rem;
   margin-top: auto;
   background-color: var(--neutral-bg-headings-btns);
+  border: 2px solid var(--neutral-bg-headings-btns);
   border-radius: 1.5rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border 0.2s ease-in-out;
+}
+
+.call-to-action:hover {
+  color: var(--neutral-bg-headings-btns);
+  background-color: transparent;
 }
 
 /** Utility classes **/
