@@ -153,12 +153,13 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  min-width: 9.25rem;
+  min-width: 9.125rem;
   min-height: 3rem;
   margin-top: auto;
   background-color: var(--neutral-bg-headings-btns);
   border: 2px solid var(--neutral-bg-headings-btns);
   border-radius: 1.5rem;
+  font-size: 0.9rem;
   text-transform: capitalize;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border 0.2s ease-in-out;
