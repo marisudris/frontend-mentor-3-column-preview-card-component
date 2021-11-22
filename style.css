@@ -44,13 +44,9 @@ body {
 }
 
 .header {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  width: 1px;
+  display: flex;
+  justify-content: center;
+  padding: 2.5em;
 }
 
 .content {
@@ -70,15 +66,14 @@ body {
 }
 
 /** Card styles **/
-
 .card {
   display: flex;
   flex-wrap: wrap;
-  --threshold: 45.5rem;
+  --threshold: 46rem;
   max-width: 920px;
   min-height: 500px;
   color: var(--neutral-paragraphs);
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -92,7 +87,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
+  gap: 1.25em;
 }
 
 .card__column::before {
@@ -100,6 +95,7 @@ body {
   display: block;
   width: 64px;
   height: 40px;
+  margin-bottom: 0.5rem;
 }
 
 .sedans {
@@ -143,12 +139,13 @@ body {
   font-size: 2.4rem;
   font-weight: bold;
   color: var(--neutral-bg-headings-btns);
+  line-height: 1.5;
   text-transform: uppercase;
 }
 
 .card__column-copy {
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.65;
 }
 
 .call-to-action {
@@ -160,4 +157,15 @@ body {
   margin-top: auto;
   background-color: var(--neutral-bg-headings-btns);
   border-radius: 1.5rem;
+}
+
+/** Utility classes **/
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
 }
